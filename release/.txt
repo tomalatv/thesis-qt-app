@@ -1,0 +1,1 @@
+Aloitus aika | Lopetus aika |Testi nro | Aika s. | Aika ms. | Toistot

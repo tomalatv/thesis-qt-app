@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_77NX0HEaEd6i_Pl-4hXh3g" name="MultimediaX">
+  <elementImport xmi:id="_77pc9HEaEd6i_Pl-4hXh3g">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_77pc9XEaEd6i_Pl-4hXh3g">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_77pc9nEaEd6i_Pl-4hXh3g">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <elementImport xmi:id="_77pc93EaEd6i_Pl-4hXh3g">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <elementImport xmi:id="_Br3IHHEbEd6i_Pl-4hXh3g">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <elementImport xmi:id="_Br3IHXEbEd6i_Pl-4hXh3g">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_Br3IHnEbEd6i_Pl-4hXh3g">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <elementImport xmi:id="_Br3IH3EbEd6i_Pl-4hXh3g">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Br3IIHEbEd6i_Pl-4hXh3g" name="Käyttäjä">
+    <generalization xmi:id="_Br3IIXEbEd6i_Pl-4hXh3g" general="_Br3IKXEbEd6i_Pl-4hXh3g"/>
+    <generalization xmi:id="_Br3IInEbEd6i_Pl-4hXh3g" general="_Br3IKHEbEd6i_Pl-4hXh3g"/>
+    <generalization xmi:id="_Br3II3EbEd6i_Pl-4hXh3g" general="_Br3IKnEbEd6i_Pl-4hXh3g"/>
+    <generalization xmi:id="_Br3IJHEbEd6i_Pl-4hXh3g" general="_Br3ILHEbEd6i_Pl-4hXh3g"/>
+    <generalization xmi:id="_Br3IJXEbEd6i_Pl-4hXh3g" general="_Br3ILnEbEd6i_Pl-4hXh3g"/>
+    <generalization xmi:id="_Br3IJnEbEd6i_Pl-4hXh3g" general="_Br3ILXEbEd6i_Pl-4hXh3g"/>
+    <generalization xmi:id="_Br3IJ3EbEd6i_Pl-4hXh3g" general="_Br3IK3EbEd6i_Pl-4hXh3g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Br3IKHEbEd6i_Pl-4hXh3g" name="Soitamusiikkia"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Br3IKXEbEd6i_Pl-4hXh3g" name="Katsele kuvia"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Br3IKnEbEd6i_Pl-4hXh3g" name="Pysäytä musiikki"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Br3IK3EbEd6i_Pl-4hXh3g" name="Valitse kuvat"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Br3ILHEbEd6i_Pl-4hXh3g" name="Valitse toistettava musiikki tiedosto"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Br3ILXEbEd6i_Pl-4hXh3g" name="Jatka musiikin toista"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Br3ILnEbEd6i_Pl-4hXh3g" name="Pysäytä musiikin toisto"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Br3IL3EbEd6i_Pl-4hXh3g" memberEnd="_Br3IMHEbEd6i_Pl-4hXh3g _Br3IM3EbEd6i_Pl-4hXh3g" navigableOwnedEnd="_Br3IM3EbEd6i_Pl-4hXh3g">
+    <ownedEnd xmi:id="_Br3IMHEbEd6i_Pl-4hXh3g" name="src" type="_Br3IKHEbEd6i_Pl-4hXh3g" association="_Br3IL3EbEd6i_Pl-4hXh3g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Br3IMXEbEd6i_Pl-4hXh3g" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Br3IMnEbEd6i_Pl-4hXh3g" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_Br3IM3EbEd6i_Pl-4hXh3g" name="dst" type="_Br3IKXEbEd6i_Pl-4hXh3g" association="_Br3IL3EbEd6i_Pl-4hXh3g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Br3INHEbEd6i_Pl-4hXh3g" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Br3INXEbEd6i_Pl-4hXh3g" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
